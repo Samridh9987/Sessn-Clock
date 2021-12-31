@@ -80,3 +80,11 @@ document.getElementById('here').innerHTML = time;
 document.getElementById('here2').innerHTML = rdate;
 document.getElementById('d').innerHTML = rday;
 }, 1000);
+
+function redirect(){
+  window.location.replace("digital_index.html");
+};
+
+function redirect2(){
+    window.location.replace("index.html");
+};
